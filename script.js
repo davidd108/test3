@@ -2,7 +2,7 @@ let timeout = null;
 
 document.addEventListener('DOMContentLoaded', function() {
     //keys de supabase
-    const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp5em5ydGJzdHNobmVuYnJ5cmRuIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTIwNzgxNTcsImV4cCI6MjAwNzY1NDE1N30.GLp73U19tnF09_AIOu3BKa6u6MKeQ-6Sgr2QRAVZxPI";
+    const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF3enJjcGh2c214cndvYm9ic2VzIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTUyNTM2MjMsImV4cCI6MjAxMDgyOTYyM30.QSo442z0B7W6rD0xP-eHkQKIN4uVmbxxI2pnflfAxmo";
 
     const passwordForm = document.getElementById('passwordForm');
     const passwordInput = document.getElementById('password');
