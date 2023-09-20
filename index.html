@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recover password</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body id="body">
+    <div class="container">
+        <h1>Change password</h1>
+        <form id="passwordForm">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label for="confirmPassword">Confirm:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <br>
+            <div class="conten-button">
+                <button type="submit" id="buttonSubmit">Save password</button>
+            </div>
+        </form>
+    </div>
+    <script src="jwt-decode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
